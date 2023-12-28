@@ -15,7 +15,7 @@ var store = [{
         "excerpt":"  ","categories": [],
         "tags": ["gaming","words"],
         "url": "/microsoft-is-in-your-bathroom/",
-        "teaser": "/assets/images/posts/bathroom.jpg"
+        "teaser": "/assets/images/posts/bathroom-200.png"
       },{
         "title": "QuickTime is Not a Codec: The Basics of Media Files",
         "excerpt":"If one more person answers “What codec is it?” with “Quicktime,” I’m going to lose my shit. QuickTime is not a codec. QuickTime has never been a codec. Seriously guys, it’s 2012. We have fifty new cameras released every month, all of which shoot to a myriad of file-based formats. Get...","categories": [],
@@ -39,13 +39,13 @@ var store = [{
         "excerpt":"What is HDR? HDR stands for High Dynamic Range. When an HDR source like a game or video is displayed on an HDR TV, there’s a much bigger difference between dark stuff and light stuff than there is on a regular TV. This dramatically increased contrast makes the whole image...","categories": [],
         "tags": ["tech","4k","featured","gaming","hdr","playstation","post-production","production","ps4","home","words"],
         "url": "/hdr-explained-for-regular-people/",
-        "teaser": "/assets/images/posts/HDR-vs-SDR.png"
+        "teaser": "/assets/images/posts/HDR-vs-SDR-200.png"
       },{
         "title": "The Importance of Inclusive Diversity",
         "excerpt":"Not too long ago I attended an event for broadcast engineers. After more than one welcome to “engineers and wives,” a speaker talked about how important it is for us to bring new people into broadcast engineering. I, and many others, nodded in agreement. Then they handed out gendered raffle...","categories": [],
         "tags": ["management","diversity","featured","hiring","tech","home","words"],
         "url": "/the-importance-of-inclusive-diversity/",
-        "teaser": "/assets/images/posts/Diversity.png"
+        "teaser": "/assets/images/posts/Diversity-200.png"
       },{
         "title": "Decrypting the Living Room",
         "excerpt":"We spend a lot of time talking about what happens in the studio, in Master Control, and at the transmitter – but what’s happening in the living room? In this webinar we look at the technical details of the consumer side of the industry, from TVs and game consoles to...","categories": [],
