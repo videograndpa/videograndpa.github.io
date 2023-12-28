@@ -69,7 +69,7 @@ var store = [{
         "excerpt":"A smoky chili you can easily make in a crock pot or Instant Pot. It’s loosely based on one from Sunset magazine – mine tastes better and is made in a crock pot or Instant Pot so it takes basically no work. It’s not too spicy and can be enjoyed...","categories": [],
         "tags": ["recipe","home"],
         "url": "/chili/",
-        "teaser": "/assets/images/recipes/Chili.png"
+        "teaser": "/assets/images/recipes/chili-200.png"
       },{
         "title": "Video Grandpa Margarita",
         "excerpt":"Regular Version 2.5 oz 100% agave silver tequila, like Messicano Alteño Silver 0.5 oz Del Maguey Vida mezcal 1 oz fresh lime juice 0.5 oz agave nectar Rocks Jalapeño Version 3 oz 100% agave silver tequila, like Messicano Alteño Silver 0.5 oz jalapeño juice 1 oz fresh lime juice 0.5...","categories": [],
