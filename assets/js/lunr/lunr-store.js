@@ -23,17 +23,17 @@ var store = [{
         "url": "/quicktime-is-not-a-codec-the-basics-of-media-files/",
         "teaser": "/assets/images/posts/Quicktime.png"
       },{
+        "title": "4K TV Screen Size Calculator",
+        "excerpt":"Viewing Distance (in Feet): Recommended Screen Size NHK SMPTE THX Want to know the logic behind the numbers? Read on. Where You Should Sit Probably the best data on 4K viewing distances is from NHK. Here’s the results of their studies: As you can see, study participants seem to agree...","categories": [],
+        "tags": ["tech","4k","ces","tv","home","words"],
+        "url": "/4k-tv-screen-size-calculator/",
+        "teaser": "/assets/images/posts/146-inch-TV.png"
+      },{
         "title": "4K TV Is Not About Resolution",
         "excerpt":"Unless you’ve been living under a technology rock (which I guess would just be a normal rock), you know that the Consumer Electronics Show is happening this week. And every time that CES happens, we’re inundated with announcements of new TV’s with fancy cutting-edge features: 3D, 4K, OLED, LMNOP, QWERTY,...","categories": [],
         "tags": ["tech","4k","ces","tv","featured","home","words"],
         "url": "/4k-tv-is-not-about-resolution/",
         "teaser": "/assets/images/posts/UltraHDBroadcom1.jpg"
-      },{
-        "title": "The Best Stuff to Travel With",
-        "excerpt":"I’ve been traveling for a significant portion of my career. Tokyo, Amsterdam, Vancouver, Illinois, even Timbuktu – I’ve lived in many a hotel room. In that much time, you tend to fall into a pattern of travel, which includes figuring out what you can bring along to make being away...","categories": [],
-        "tags": ["featured","production","tech","travel"],
-        "url": "/the-best-stuff-to-travel-with/",
-        "teaser": null
       },{
         "title": "HDR Explained for Regular People",
         "excerpt":"What is HDR? HDR stands for High Dynamic Range. When an HDR source like a game or video is displayed on an HDR TV, there’s a much bigger difference between dark stuff and light stuff than there is on a regular TV. This dramatically increased contrast makes the whole image...","categories": [],
@@ -112,10 +112,4 @@ var store = [{
         "tags": ["home","words"],
         "url": "/how-to-back-up-everything/",
         "teaser": "https://images.unsplash.com/photo-1575729853562-e3ad7084c28d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=edges&cs=tinysrgb&fit=crop&ixid=eyJhcHBfaWQiOjExNzczfQ&w=356&h=200"
-      },{
-        "title": null,
-        "excerpt":"Viewing Distance (in Feet): Recommended Screen Size NHK SMPTE THX Want to know the logic behind the numbers? Read on. Where You Should Sit Probably the best data on 4K viewing distances is from NHK. Here’s the results of their studies: As you can see, study participants seem to agree...","categories": [],
-        "tags": null,
-        "url": "/2013-01-08-4k-tv-screen-size-calculator/",
-        "teaser": null
       }]
