@@ -102,7 +102,7 @@ var store = [{
         "teaser": "https://images.unsplash.com/photo-1633265486064-086b219458ec?crop=edges&cs=tinysrgb&fit=crop&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHBhc3N3b3JkfGVufDB8fHx8MTY3MDAwNzczNQ&ixlib=rb-4.0.3&q=80&w=356&h=200"
       },{
         "title": "Chili Crisp Benedict",
-        "excerpt":"Here’s something to do with day-old rice besides fried rice. Ingredients 3 eggs 1 cup day-old cooked rice 1 tbsp Lao Gan Ma chili crisp (you will end up using this stuff on everthing once it’s in your house) bacon or pork (I use smoked pork loin) sliced green onions...","categories": [],
+        "excerpt":"Here’s something to do with day-old rice besides fried rice. Ingredients 3 eggs 1 cup day-old cooked rice 1 tbsp Lao Gan Ma chili crisp (you will end up using this stuff on everything once it’s in your house) bacon or pork (I use smoked pork loin) sliced green onions...","categories": [],
         "tags": ["recipe","home","breakfast"],
         "url": "/benedict/",
         "teaser": "/assets/images/recipes/benedict-200.png"
