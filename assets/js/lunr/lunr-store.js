@@ -15,7 +15,7 @@ var store = [{
         "excerpt":"  ","categories": [],
         "tags": ["gaming","words"],
         "url": "/microsoft-is-in-your-bathroom/",
-        "teaser": "/assets/images/posts/bathroom.jpg"
+        "teaser": "/assets/images/posts/bathroom-200.png"
       },{
         "title": "QuickTime is Not a Codec: The Basics of Media Files",
         "excerpt":"If one more person answers “What codec is it?” with “Quicktime,” I’m going to lose my shit. QuickTime is not a codec. QuickTime has never been a codec. Seriously guys, it’s 2012. We have fifty new cameras released every month, all of which shoot to a myriad of file-based formats. Get...","categories": [],
@@ -23,29 +23,29 @@ var store = [{
         "url": "/quicktime-is-not-a-codec-the-basics-of-media-files/",
         "teaser": "/assets/images/posts/Quicktime.png"
       },{
+        "title": "4K TV Screen Size Calculator",
+        "excerpt":"Viewing Distance (in Feet): Recommended Screen Size NHK SMPTE THX Want to know the logic behind the numbers? Read on. Where You Should Sit Probably the best data on 4K viewing distances is from NHK. Here’s the results of their studies: As you can see, study participants seem to agree...","categories": [],
+        "tags": ["tech","4k","ces","tv","home","words"],
+        "url": "/4k-tv-screen-size-calculator/",
+        "teaser": "/assets/images/posts/146-inch-TV.png"
+      },{
         "title": "4K TV Is Not About Resolution",
         "excerpt":"Unless you’ve been living under a technology rock (which I guess would just be a normal rock), you know that the Consumer Electronics Show is happening this week. And every time that CES happens, we’re inundated with announcements of new TV’s with fancy cutting-edge features: 3D, 4K, OLED, LMNOP, QWERTY,...","categories": [],
         "tags": ["tech","4k","ces","tv","featured","home","words"],
         "url": "/4k-tv-is-not-about-resolution/",
         "teaser": "/assets/images/posts/UltraHDBroadcom1.jpg"
       },{
-        "title": "The Best Stuff to Travel With",
-        "excerpt":"I’ve been traveling for a significant portion of my career. Tokyo, Amsterdam, Vancouver, Illinois, even Timbuktu – I’ve lived in many a hotel room. In that much time, you tend to fall into a pattern of travel, which includes figuring out what you can bring along to make being away...","categories": [],
-        "tags": ["featured","production","tech","travel"],
-        "url": "/the-best-stuff-to-travel-with/",
-        "teaser": null
-      },{
         "title": "HDR Explained for Regular People",
         "excerpt":"What is HDR? HDR stands for High Dynamic Range. When an HDR source like a game or video is displayed on an HDR TV, there’s a much bigger difference between dark stuff and light stuff than there is on a regular TV. This dramatically increased contrast makes the whole image...","categories": [],
         "tags": ["tech","4k","featured","gaming","hdr","playstation","post-production","production","ps4","home","words"],
         "url": "/hdr-explained-for-regular-people/",
-        "teaser": "/assets/images/posts/HDR-vs-SDR.png"
+        "teaser": "/assets/images/posts/HDR-vs-SDR-200.png"
       },{
         "title": "The Importance of Inclusive Diversity",
         "excerpt":"Not too long ago I attended an event for broadcast engineers. After more than one welcome to “engineers and wives,” a speaker talked about how important it is for us to bring new people into broadcast engineering. I, and many others, nodded in agreement. Then they handed out gendered raffle...","categories": [],
         "tags": ["management","diversity","featured","hiring","tech","home","words"],
         "url": "/the-importance-of-inclusive-diversity/",
-        "teaser": "/assets/images/posts/Diversity.png"
+        "teaser": "/assets/images/posts/Diversity-200.png"
       },{
         "title": "Decrypting the Living Room",
         "excerpt":"We spend a lot of time talking about what happens in the studio, in Master Control, and at the transmitter – but what’s happening in the living room? In this webinar we look at the technical details of the consumer side of the industry, from TVs and game consoles to...","categories": [],
@@ -69,7 +69,7 @@ var store = [{
         "excerpt":"A smoky chili you can easily make in a crock pot or Instant Pot. It’s loosely based on one from Sunset magazine – mine tastes better and is made in a crock pot or Instant Pot so it takes basically no work. It’s not too spicy and can be enjoyed...","categories": [],
         "tags": ["recipe","home"],
         "url": "/chili/",
-        "teaser": "/assets/images/recipes/Chili.png"
+        "teaser": "/assets/images/recipes/chili-200.png"
       },{
         "title": "Video Grandpa Margarita",
         "excerpt":"Regular Version 2.5 oz 100% agave silver tequila, like Messicano Alteño Silver 0.5 oz Del Maguey Vida mezcal 1 oz fresh lime juice 0.5 oz agave nectar Rocks Jalapeño Version 3 oz 100% agave silver tequila, like Messicano Alteño Silver 0.5 oz jalapeño juice 1 oz fresh lime juice 0.5...","categories": [],
@@ -102,7 +102,7 @@ var store = [{
         "teaser": "https://images.unsplash.com/photo-1633265486064-086b219458ec?crop=edges&cs=tinysrgb&fit=crop&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHBhc3N3b3JkfGVufDB8fHx8MTY3MDAwNzczNQ&ixlib=rb-4.0.3&q=80&w=356&h=200"
       },{
         "title": "Chili Crisp Benedict",
-        "excerpt":"Here’s something to do with day-old rice besides fried rice. Ingredients 3 eggs 1 cup day-old cooked rice 1 tbsp Lao Gan Ma chili crisp (you will end up using this stuff on everthing once it’s in your house) bacon or pork (I use smoked pork loin) sliced green onions...","categories": [],
+        "excerpt":"Here’s something to do with day-old rice besides fried rice. Ingredients 3 eggs 1 cup day-old cooked rice 1 tbsp Lao Gan Ma chili crisp (you will end up using this stuff on everything once it’s in your house) bacon or pork (I use smoked pork loin) sliced green onions...","categories": [],
         "tags": ["recipe","home","breakfast"],
         "url": "/benedict/",
         "teaser": "/assets/images/recipes/benedict-200.png"
@@ -112,10 +112,4 @@ var store = [{
         "tags": ["home","words"],
         "url": "/how-to-back-up-everything/",
         "teaser": "https://images.unsplash.com/photo-1575729853562-e3ad7084c28d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=edges&cs=tinysrgb&fit=crop&ixid=eyJhcHBfaWQiOjExNzczfQ&w=356&h=200"
-      },{
-        "title": null,
-        "excerpt":"Viewing Distance (in Feet): Recommended Screen Size NHK SMPTE THX Want to know the logic behind the numbers? Read on. Where You Should Sit Probably the best data on 4K viewing distances is from NHK. Here’s the results of their studies: As you can see, study participants seem to agree...","categories": [],
-        "tags": null,
-        "url": "/2013-01-08-4k-tv-screen-size-calculator/",
-        "teaser": null
       }]

@@ -1,63 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-12-28T14:37:19-06:00</updated><id>/feed.xml</id><title type="html">Video Grandpa</title><subtitle>Get off my lawn</subtitle><author><name>Chris Ostertag</name></author><entry><title type="html"></title><link href="/2013-01-08-4k-tv-screen-size-calculator/" rel="alternate" type="text/html" title="" /><published>2023-12-28T14:37:19-06:00</published><updated>2023-12-28T14:37:19-06:00</updated><id>/2013-01-08-4k-tv-screen-size-calculator</id><content type="html" xml:base="/2013-01-08-4k-tv-screen-size-calculator/">&lt;script type=&quot;text/javascript&quot;&gt;
-		function calculateIt () {
-			distance = parseFloat (document.getElementById(&apos;distance-input&apos;).value);
-			nhk = Math.floor ((distance * 12)/1.5/.4903);
-			smpte = Math.floor ((distance * 12)/3/.4903);
-			thx = Math.floor ((distance * 12) * .84);
-			//alert (&quot;Distance: &quot;+distance+&quot;\nNHK: &quot;+nhk+&quot;\nSMPTE: &quot;+smpte+&quot;\nTHX: &quot;+thx);
-			//document.getElementById(&apos;distance&apos;).innerHTML = distance + &quot; Feet&quot;;
-			document.getElementById(&apos;nhk&apos;).innerHTML = nhk + &quot;\&quot;&quot;;
-			document.getElementById(&apos;smpte&apos;).innerHTML = smpte + &quot;\&quot;&quot;;
-			document.getElementById(&apos;thx&apos;).innerHTML = thx + &quot;\&quot;&quot;;
-		}
-&lt;/script&gt;
-
-&lt;form action=&quot;#&quot; method=&quot;GET&quot; onsubmit=&quot;calculateIt (); return false;&quot;&gt;
-        Viewing Distance (in Feet): &lt;input id=&quot;distance-input&quot; size=&quot;5&quot; type=&quot;text&quot; value=&quot;9&quot; /&gt;
-    	&lt;input type=&quot;submit&quot; value=&quot;Do Math!&quot; /&gt;  
-&lt;/form&gt;
-
-&lt;h3 id=&quot;recommended-screen-size&quot;&gt;Recommended Screen Size&lt;/h3&gt;
-
-&lt;div class=&quot;center&quot;&gt;
-	&lt;table class=&quot;center&quot;&gt;
-			&lt;tbody&gt;&lt;tr&gt;
-				&lt;td align=&quot;center&quot;&gt;NHK&lt;/td&gt;
-				&lt;td align=&quot;center&quot;&gt;SMPTE&lt;/td&gt;
-				&lt;td align=&quot;center&quot;&gt;THX&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-				&lt;td align=&quot;center&quot;&gt;&lt;span id=&quot;nhk&quot;&gt;&lt;/span&gt;&lt;/td&gt;
-				&lt;td align=&quot;center&quot;&gt;&lt;span id=&quot;smpte&quot;&gt;&lt;/span&gt;&lt;/td&gt;
-				&lt;td align=&quot;center&quot;&gt;&lt;span id=&quot;thx&quot;&gt;&lt;/span&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Want to know the logic behind the numbers? Read on.&lt;/p&gt;
-
-&lt;h3 id=&quot;where-you-should-sit&quot;&gt;Where You Should Sit&lt;/h3&gt;
-
-&lt;p&gt;Probably the best data on 4K viewing distances is from NHK. Here’s the results of their studies:&lt;/p&gt;
-
-&lt;figure class=&quot;kg-card kg-image-card&quot;&gt;&lt;img src=&quot;/assets/images/posts/1-1-1-11.gif&quot; class=&quot;kg-image&quot; alt=&quot;&quot; loading=&quot;lazy&quot; title=&quot;NHK Viewing Distance Results&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;As you can see, study participants seem to agree that around 1.5x screen height is optimal for 4k and even 8k content.&lt;/p&gt;
-
-&lt;p&gt;For boring old 1080p, there are two major industry standards that dictate where you *should *sit – SMPTE and THX.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.thx.com/consumer/home-entertainment/home-theater/hdtv-set-up/&quot;&gt;THX’s standard&lt;/a&gt; is very simple: divide your screen size (measured diagonally) by .84, and that’s how far you should sit from your TV. A 65-inch TV divided by .84 equals a 77-inch viewing distance (6.5 feet).&lt;/p&gt;
-
-&lt;p&gt;SMPTE’s standard is actually not a home theater standard at all – it’s a movie theater standard that’s just been widely adopted by home theaters. I can’t link to the actual publication, since it’s not available for free, but it’s quoted in many other documents like &lt;a href=&quot;http://www.film-tech.com/warehouse/manuals/TAPGUIDELINES.pdf&quot;&gt;this one.&lt;/a&gt; In a nutshell, SMPTE recommends that your viewing angle be about 30 degrees – 3x the height of your TV. A 65″ TV is 31.8695″ tall, so a viewing distance of about 8 feet.&lt;/p&gt;
-
-&lt;h3 id=&quot;where-you-do-sit&quot;&gt;Where You Do Sit&lt;/h3&gt;
-
-&lt;p&gt;Unless you re-arrange your living room every time you get a new TV, your viewing distance is – like everything else in your home – dictated by comfort and aesthetics rather than technical standards. Statistically, you sit about 9 feet away from your TV; your experience may vary, consult your local tape measure for more details. Mine is roughly 9, studies in the US and Europe end up with 9 and 9.8 respectively, so we’re going with 9 because America. That’s why the calculator above defaults to 9, and why the only input is viewing distance.&lt;/p&gt;
-
-&lt;p&gt;If you re-arrange your living room every time new TV technology comes out…I honestly don’t know what to say to you.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Want more on 4K? Check out &lt;a href=&quot;__GHOST_URL__ /?p=2043&quot;&gt;4K TV Is Not About Resolution&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Chris Ostertag</name></author></entry><entry><title type="html">How to Back Up Everything</title><link href="/how-to-back-up-everything/" rel="alternate" type="text/html" title="How to Back Up Everything" /><published>2023-12-27T00:00:00-06:00</published><updated>2023-12-27T00:00:00-06:00</updated><id>/how-to-back-up-everything</id><content type="html" xml:base="/how-to-back-up-everything/">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1575729853562-e3ad7084c28d?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=edges&amp;amp;cs=tinysrgb&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;amp;w=1000&quot; alt=&quot;a hard drive laying on a wooden table&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-12-28T19:37:10-06:00</updated><id>/feed.xml</id><title type="html">Video Grandpa</title><subtitle>Get off my lawn</subtitle><author><name>Chris Ostertag</name></author><entry><title type="html">How to Back Up Everything</title><link href="/how-to-back-up-everything/" rel="alternate" type="text/html" title="How to Back Up Everything" /><published>2023-12-27T00:00:00-06:00</published><updated>2023-12-27T00:00:00-06:00</updated><id>/how-to-back-up-everything</id><content type="html" xml:base="/how-to-back-up-everything/">&lt;p&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1575729853562-e3ad7084c28d?ixlib=rb-1.2.1&amp;amp;q=80&amp;amp;fm=jpg&amp;amp;crop=edges&amp;amp;cs=tinysrgb&amp;amp;fit=max&amp;amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;amp;w=1000&quot; alt=&quot;a hard drive laying on a wooden table&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We collectively generate over a trillion digital photos a year. Many of them are pretty worthless: blurry concert videos, 70 versions of the same landscape, reference photos of groceries you need someone to pick up. But mixed in there are our most cherished memories - births, weddings, friends and family who may no longer be with us.&lt;/p&gt;
 
@@ -127,7 +68,7 @@
 &lt;ul&gt;
   &lt;li&gt;3 eggs&lt;/li&gt;
   &lt;li&gt;1 cup day-old cooked rice&lt;/li&gt;
-  &lt;li&gt;1 tbsp &lt;a href=&quot;https://amzn.to/3NFNHHT&quot; target=&quot;_blank&quot;&gt;Lao Gan Ma chili crisp&lt;/a&gt; (you will end up using this stuff on everthing once it’s in your house)&lt;/li&gt;
+  &lt;li&gt;1 tbsp &lt;a href=&quot;https://amzn.to/3NFNHHT&quot; target=&quot;_blank&quot;&gt;Lao Gan Ma chili crisp&lt;/a&gt; (you will end up using this stuff on everything once it’s in your house)&lt;/li&gt;
   &lt;li&gt;bacon or pork (I use smoked pork loin)&lt;/li&gt;
   &lt;li&gt;sliced green onions and &lt;a href=&quot;https://amzn.to/3RVSZBr&quot; target=&quot;_blank&quot;&gt;Sriracha Mayo&lt;/a&gt; for garnish&lt;/li&gt;
 &lt;/ul&gt;
@@ -279,7 +220,7 @@ The links in the original post died. Luckily, a helpful friend named Guillermo s
 
 &lt;h3 id=&quot;regular-version&quot;&gt;Regular Version&lt;/h3&gt;
 
-&lt;p&gt;2.5 oz 100% agave silver tequila, like &lt;a href=&quot;https://specsonline.com/shop/spirits/alteno-tequila-silver-100-agave/&quot; target=&quot;_blank&quot;&gt;Messicano Alteño Silver&lt;/a&gt; 
+&lt;p&gt;2.5 oz 100% agave silver tequila, like &lt;a href=&quot;https://specsonline.com/shop/spirits/alteno-tequila-silver-100-agave/&quot; target=&quot;_blank&quot;&gt;Messicano Alteño Silver&lt;/a&gt;&lt;br /&gt;
 0.5 oz &lt;a href=&quot;https://specsonline.com/shop/spirits/del-maguey-mezcal-vida-6-case/&quot; target=&quot;_blank&quot;&gt;Del Maguey Vida&lt;/a&gt; mezcal&lt;br /&gt;
 1 oz fresh lime juice&lt;br /&gt;
 0.5 oz agave nectar&lt;br /&gt;
@@ -287,7 +228,7 @@ Rocks&lt;/p&gt;
 
 &lt;h3 id=&quot;jalapeño-version&quot;&gt;Jalapeño Version&lt;/h3&gt;
 
-&lt;p&gt;3 oz 100% agave silver tequila, like &lt;a href=&quot;https://specsonline.com/shop/spirits/alteno-tequila-silver-100-agave/&quot; target=&quot;_blank&quot;&gt;Messicano Alteño Silver&lt;/a&gt; 
+&lt;p&gt;3 oz 100% agave silver tequila, like &lt;a href=&quot;https://specsonline.com/shop/spirits/alteno-tequila-silver-100-agave/&quot; target=&quot;_blank&quot;&gt;Messicano Alteño Silver&lt;/a&gt;&lt;br /&gt; 
 0.5 oz jalapeño juice&lt;br /&gt;
 1 oz fresh lime juice&lt;br /&gt;
 0.5 oz agave nectar&lt;br /&gt;
@@ -372,4 +313,80 @@ Rocks&lt;/p&gt;</content><author><name>Chris Ostertag</name></author><category t
 
 &lt;p&gt;Stop saying “digital.” Everything is digital. We adapt or we die.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This article originally appeared in PBS TechNews&lt;/em&gt;&lt;/p&gt;</content><author><name>Chris Ostertag</name></author><category term="strategy" /><category term="home" /><category term="words" /><summary type="html">Arbitrary distinctions are arbitrary.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;This article originally appeared in PBS TechNews&lt;/em&gt;&lt;/p&gt;</content><author><name>Chris Ostertag</name></author><category term="strategy" /><category term="home" /><category term="words" /><summary type="html">Arbitrary distinctions are arbitrary.</summary></entry><entry><title type="html">Why Should I Caption Online-Only Content?</title><link href="/why-should-i-caption-online-only-content/" rel="alternate" type="text/html" title="Why Should I Caption Online-Only Content?" /><published>2018-02-26T12:22:32-06:00</published><updated>2018-02-26T12:22:32-06:00</updated><id>/why-should-i-caption-online-only-content</id><content type="html" xml:base="/why-should-i-caption-online-only-content/">&lt;p&gt;Do we really have to caption online-only content? I want to caption everything, but how do I justify it to my organization when technically we may not have to?&lt;/p&gt;
+
+&lt;p&gt;This is a great but surprisingly complicated question. So let’s take a look at the current rules, then go beyond them to get the whole answer.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-current-rules&quot;&gt;The Current Rules&lt;/h3&gt;
+
+&lt;p&gt;The current FCC regulations around closed captioning of online video &lt;a href=&quot;https://www.fcc.gov/consumers/guides/captioning-internet-video-programming&quot; target=&quot;_blank&quot;&gt;can be found here&lt;/a&gt;. The most important part is this one:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The Internet closed captioning rules only apply if the video programming was shown on TV in the U.S. with captions.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That’s how the FCC has any enforcement power at all – it’s predicated on the content being shown on TV with captions. If that’s never happened, there is no online captioning requirement &lt;em&gt;from the FCC&lt;/em&gt; (that last part will be important later).&lt;/p&gt;
+
+&lt;p&gt;So if you’re just looking for a quick easy answer, and you’re primarily regulated by the FCC, you could stop here. If it hasn’t been shown on TV with captions, it’s not required to have captions online. Cut and dry. Right?&lt;/p&gt;
+
+&lt;p&gt;Wrong! There’s more to it than that, and if you stop here, you’ve missed the whole picture. There are compelling reasons beyond the FCC that you should be captioning your online video.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-other-regulatory-reason&quot;&gt;The (Other) Regulatory Reason&lt;/h3&gt;
+
+&lt;p&gt;Remember that &lt;em&gt;from the FCC&lt;/em&gt; part like 4 sentences ago? Those italics indicate the presence of a looming gotcha!&lt;/p&gt;
+
+&lt;p&gt;While there may not be an FCC requirement for captions on your content, the regulatory landscape is always changing, and right now the winds are blowing in a way that could impact everyone who does online video. It all comes down to how important the online space has become in our public lives.&lt;/p&gt;
+
+&lt;p&gt;In 2010, the National Association of the Deaf brought a lawsuit against Netflix, arguing that they were violating the Americans with Disabilities Act because a website is a “place of public accommodation” (a specific term in the ADA) and thus video needs to have closed captions. The court agreed and allowed the lawsuit to move forward. Netflix settled and agreed to caption all of its content. &lt;a href=&quot;https://www.3playmedia.com/2013/09/27/the-ada-online-video-captioning-standards/&quot; target=&quot;_blank&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was big. Really big. A court agreeing that a website is “a place of public accommodation” opens the door to a whole lot of regulatory interpretations – among them a closed caption requirement for video.&lt;/p&gt;
+
+&lt;p&gt;But then a different court did the exact opposite! In 2 different cases, &lt;a href=&quot;https://www.3playmedia.com/2016/06/08/earll-v-ebay-is-a-website-a-place-of-public-accommodation/&quot; target=&quot;_blank&quot;&gt;the 9th Circuit ruled&lt;/a&gt; that websites are NOT places of public accommodation. And one of those cases was about Netflix captions. But that one was unpublished, so it’s not meant to be cited as precedent.&lt;/p&gt;
+
+&lt;p&gt;And in &lt;a href=&quot;https://www.3playmedia.com/2015/06/27/usdoj-sides-with-nad-in-web-accessibility-lawsuit-against-harvard-mit/&quot; target=&quot;_blank&quot;&gt;another lawsuit&lt;/a&gt;, the Department of Justice weighed in and said this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The ADA applies to websites of public accommodations, and…the ADA regulations should be interpreted to keep pace with developing technologies.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m sure I’ve missed other cases – these are just the big ones that always get talked about. So what do we do?!&lt;/p&gt;
+
+&lt;p&gt;Basically, the overall regulatory question is far from settled, but it’s something that you need to be aware of and following if you’re working in online video. My best advice is to consult your lawyer, which is what you should do every time you’re presented with a murky legal question that has far-reaching implications for your business. And keep up on cases involving the ADA and online video, and specifically ones that touch on the definition of public accommodation.&lt;/p&gt;
+
+&lt;p&gt;But if you watch how people discuss websites, especially in the wake of the information warfare surrounding the 2016 US election, I think you can see a trend. Take this tweet from the head of the FCC, where he calls online platforms “America’s public square.”&lt;/p&gt;
+
+&lt;figure class=&quot;kg-card kg-embed-card&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;How is social media affecting American society? I offered some thoughts &lt;a href=&quot;https://twitter.com/TheMediaInst?ref_src=twsrc%5Etfw&quot;&gt;@TheMediaInst&lt;/a&gt; on civility, politics, and in-person interaction as online platforms become America&apos;s public square. &lt;a href=&quot;https://t.co/AF7eB8tdjA&quot;&gt;https://t.co/AF7eB8tdjA&lt;/a&gt;&lt;/p&gt;— Ajit Pai (@AjitPaiFCC) &lt;a href=&quot;https://twitter.com/AjitPaiFCC/status/936050444685774848?ref_src=twsrc%5Etfw&quot;&gt;November 30, 2017&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My personal opinion: I think it’s only a matter of time until websites are considered a place of public accommodation, with all the rights and requirements that come along with that distinction.&lt;/p&gt;
+
+&lt;p&gt;_ &lt;strong&gt;2019-10-07 Update:&lt;/strong&gt; &lt;a href=&quot;http://www.abajournal.com/news/article/supreme-court-rejects-dominos-appeal-over-web-and-app-accessibility&quot; target=&quot;_blank&quot;&gt;SCOTUS just declined to hear the appeal&lt;/a&gt; in &lt;a href=&quot;https://www.scotusblog.com/case-files/cases/dominos-pizza-llc-v-robles/&quot; target=&quot;_blank&quot;&gt;Domino’s Pizza LLC v. Robles&lt;/a&gt;, which means the &lt;a href=&quot;http://cdn.ca9.uscourts.gov/datastore/opinions/2019/01/15/17-55504.pdf&quot; target=&quot;_blank&quot;&gt;9th Circuit’s decision&lt;/a&gt; stands. The decision quotes &lt;a href=&quot;https://en.wikipedia.org/wiki/National_Federation_of_the_Blind_v._Target_Corp.&quot; target=&quot;_blank&quot;&gt;a previous one&lt;/a&gt; and restates:_&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The statute applies to the services of a place of public accommodation, not services in a place of public accommodation. To limit the ADA to discrimination in the provision of services occurring on the premises of a public accommodation would contradict the plain language of the statute.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-metadata-reason&quot;&gt;The Metadata Reason&lt;/h3&gt;
+
+&lt;p&gt;Maybe your lawyer has reviewed everything I just said and decided I’m dead wrong. It’s cool, it happens sometimes. But there’s another reason to caption everything you do: you’re creating rich metadata with long-term value.&lt;/p&gt;
+
+&lt;p&gt;Captions give you a record of every word that’s spoken in your content. And when you pair them with a video platform, all that data becomes searchable. If a viewer’s looking for something specific that gets mentioned in your video, but you don’t include it in the metadata, their only chance of finding it is if you’d included a caption file. For example, &lt;a href=&quot;https://www.3playmedia.com/2016/03/07/5-quick-tips-for-youtube-seo-strategy/&quot;&gt;YouTube indexes caption files and includes their content in search&lt;/a&gt;, but only if you upload one yourself – they do NOT index the auto-generated captions.&lt;/p&gt;
+
+&lt;p&gt;This is also helpful for internal use. Need to cut together a video of every time someone said a certain word on your show? Or highlight times in the past where a politician has spoken on a certain issue? It’s trivially easy to track down those moments if you’ve got captions. At my shop we’re working on an archive of all of &lt;em&gt;Austin City Limits&lt;/em&gt;, and it’s pretty magic to be able to search for how many times someone has said “Texas” on the show.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-human-reason&quot;&gt;The Human Reason&lt;/h3&gt;
+
+&lt;p&gt;When considering regulations and value adds, sometimes we lose sight of the simple reason: it’s the right thing to do. If you’ve ever helped someone who’s visually or hearing impaired navigate media consumption, you know how awful it is out there. Company after company, provider after provider, does the absolute bare minimum or finds a loophole so they don’t even have to do that. I recently encountered a cable box where you had to be able to see to turn on the options for people who can’t see. And this level of “we don’t care at all” is not rare.&lt;/p&gt;
+
+&lt;p&gt;So maybe when we consider these things, we should think about what a big impact a relatively small amount of effort can have for some people who are already struggling to enjoy things many of us take for granted.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-cost-reason&quot;&gt;The Cost Reason&lt;/h3&gt;
+
+&lt;p&gt;I’ve saved the simplest reason for last: it costs &lt;a href=&quot;https://www.rev.com/caption&quot;&gt;$1 per minute&lt;/a&gt; to caption your content. That’s nothing in a production budget. Even ignoring everything else above, it’s now so cheap to caption content that by &lt;em&gt;not&lt;/em&gt; doing it, you’re saying to the world that you won’t even put in the smallest effort to make your content accessible to everyone.&lt;/p&gt;
+
+&lt;p&gt;And that makes you the asshole.&lt;/p&gt;
+
+&lt;p&gt;Don’t be the asshole. Caption your content.&lt;/p&gt;</content><author><name>Chris Ostertag</name></author><category term="distribution" /><category term="featured" /><category term="post-production" /><category term="production" /><category term="home" /><category term="closed-captions" /><category term="words" /><summary type="html">Don&apos;t be an asshole.</summary></entry></feed>
